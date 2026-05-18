@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты | DosHotel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page-sticky-footer">
 
     <header class="main-header">
         <div class="container nav-flex">
@@ -24,10 +25,15 @@
                 </ul>
             </nav>
             <a href="booking.html" class="btn btn-gold ">Забронировать</a>
+            <button class="burger" type="button" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
-    <section class="container" style="padding: 80px 0;">
+    <section class="container page-main-content" style="padding: 80px 0;">
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 50px;">
             <div>
                 <h1 style="font-family: 'Playfair Display'; margin-bottom: 30px;">Свяжитесь с DosHotel</h1>
@@ -38,8 +44,8 @@
 
                 <h3>Мы в соцсетях</h3>
                 <div style="display:flex; gap: 10px; margin-top: 15px;">
-                    <a href="#" class="btn btn-outline" style="padding: 10px 20px;">Instagram</a>
-                    <a href="#" class="btn btn-outline" style="padding: 10px 20px;">Telegram</a>
+                    <a href="#" class="btn btn-outline social-link-btn" style="padding: 10px 20px;">Instagram</a>
+                    <a href="#" class="btn btn-outline social-link-btn" style="padding: 10px 20px;">Telegram</a>
                 </div>
             </div>
             <div style="background: #eee; height: 450px; border-radius: 8px; overflow: hidden;">
